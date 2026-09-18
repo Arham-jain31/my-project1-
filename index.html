@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARHAM JAIN  PERSONAL WEBSITE</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <style>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    padding: 15px 40px;
+    background-color: white;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+.deakin {
+    position: relative;
+    width: 100%;
+}
+
+.deakin img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.deakin-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.deakin:hover .deakin-text {
+    opacity: 1;
+}
+
+.profile {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile h2 {
+    font-size: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.profile p h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+}
+
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery > h2 {
+    font-size: 30px;
+    color: teal;
+}
+
+.gallery .gallery.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.gallery .gallery.section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+
+  .projects{
+        display: flex;
+        gap:25px;
+        justify-content: center;
+        flex-wrap:wrap;
+
+    }
+
+    .heading{
+        text-align: center;
+    }
+    
+
+</style>   
+
+</head>
+
+    <body>
+  
+    
+<nav>
+    <a href="about"><h1>about</h1></a>
+    <a href="work"><h1>work</h1></a>
+    <a href="contact"><h1>Contact</h1></a>
+    </nav>
+    <style>
+
+    </style>
+    <section class ="deakin">
+          <img width="1500px" height="400px" src="40644-900x455-deakin-students-law-buiiding.jpg">
+        <div class="deakin-text">
+            hey i am arham
+        </div>
+    </section>
+    
+    <section id="about" class="profile">
+        <h2>About me </h2>
+<img  width="300px" height="300px" src="WhatsApp Image 2026-08-20 at 22.31.35.jpeg">
+<p>
+    <h2>i am an AI ML student studying currentlly at chitkara university. i am  intersted in enterprenurship , travelling and exploring nature.</h2>
+</p>
+    </section>
+
+<section id="work" class="Portfolio">
+    <h2 class="heading"> MY PROJECTS</h2>
+    <h5 class="heading"> bmi calculator</h5>
+    <div class ="projects">
+        <img  width="1000px" height="300px" src="Screenshot 2026-08-21 161309.png" alt="bmi calculator">
+        
+    </div>
+</section>
+
+    <section class="gallery">
+        <h2> Photos section</h2>
+        <div class="gallery section">
+            <img width="100px" height="100px" src="images (1).jpg" alt="photo 1">
+            <img width="100px" height="100px" src="images (3).jpg" alt="photo 1">
+            <img width="100px" height="100px" src="images (5).jpg" alt="photo 1">
+            <img width="100px" height="100px" src="images.jpg" alt="photo 1">
+            <img width="100px" height="100px" src="1727779877361.jpg" alt="photo 1">
+            <br>
+            <img width="300px" height="300px" src="20260819_OHR.WhyteCliffP_EN-IN2033000441_UHD_bing.jpg" alt="photo 1">
+        </div>
+    </section>
+    
+
+
+    
+</body>
+</html>
